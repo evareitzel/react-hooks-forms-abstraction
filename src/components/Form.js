@@ -18,6 +18,8 @@ function Form() {
       value = event.target.checked
     }
 
+  // optional: add logic for inputs ( number fields - parseInt or parseFloat) 
+
     setFormData({
       ...formData,
       [name]: value,
